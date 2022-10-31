@@ -39,6 +39,7 @@ class Evolution:
     def first_Individuo(self):
         
         individual = Individuo()
+        individual.fitness = -1
         
         for cont in range(8):
             individual.tabuleiro.append(randint(0, 7))
@@ -60,6 +61,9 @@ class Evolution:
         
         filho1.geracao = self.itatual
         filho2.geracao = self.itatual
+        
+        filho1.fitness = -1
+        filho2.fitness = -1
         
         self.fitness_test(filho1)
         self.fitness_test(filho2)
@@ -124,6 +128,7 @@ class Evolution:
         self.fitnesstotal = 0
     
     def run(self):
+        self.melhorIndividuo.fitness = -1
         for i in range(self.tammax):
             self.first_Individuo()
             
