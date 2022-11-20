@@ -145,3 +145,8 @@ class Evolution:
             #self.mostrar_geracao(self.melhorIndividuo)
         print("::\n::\n::           Melhor Individuo            \n::\n::")
         self.mostrar_geracao(self.melhorIndividuo)
+        self.melhorIndividuo.mostrar_tabuleiro()
+        
+if __name__ == "__main__":
+    evolucao = Evolution(150,100,0.2)#(Tamanho, interação e mutação)
+    evolucao.run()

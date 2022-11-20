@@ -4,7 +4,7 @@ from copy import deepcopy
 
 class Subir():
     
-    def __init__(self) -> None:
+    def __init__(self):
         self.novizinho = Individuo()
         self.noatual = Individuo()
         self.melhorfitness = 100
@@ -78,7 +78,10 @@ class Subir():
             self.Mostrar_geracao(self.noatual)
             self.Escolher_sussesor()
             
+            
         self.Mostrar_geracao(self.noatual)
-        
-subir = Subir()
-subir.Run()
+        self.noatual.mostrar_tabuleiro()
+
+if __name__ == "__main__":
+    subir = Subir()
+    subir.Run()
