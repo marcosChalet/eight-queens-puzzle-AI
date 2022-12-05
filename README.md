@@ -1,5 +1,4 @@
-![2hero](https://user-images.githubusercontent.com/72557256/205533572-8fb031f6-8fb6-415e-8e4a-6bd165d701e9.gif)
-
+![3Hero](https://user-images.githubusercontent.com/72557256/205545058-258cd8f0-9e3c-487a-9e92-bb91e24fc56d.gif)
 
 <br>
 <h1 align="center">Eight Queens Puzzle - AI</h1>
