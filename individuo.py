@@ -15,7 +15,7 @@ class Individuo:
             else:
                 tab = [black, white]
             
-            print("||", end="      ")
+            print("||", end="          ")
             
             for j in (range(8)):
                 if self.tabuleiro[j] == i:

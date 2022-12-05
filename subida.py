@@ -82,6 +82,5 @@ class Subir():
         self.Mostrar_geracao(self.noatual)
         self.noatual.mostrar_tabuleiro()
 
-if __name__ == "__main__":
-    subir = Subir()
-    subir.Run()
+subir = Subir()
+subir.Run()
