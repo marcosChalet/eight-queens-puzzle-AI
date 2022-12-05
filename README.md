@@ -1,4 +1,5 @@
-![hero](https://user-images.githubusercontent.com/72557256/205528006-38f75e94-c440-4713-822a-d8f307ad0ff6.gif)
+![2hero](https://user-images.githubusercontent.com/72557256/205533572-8fb031f6-8fb6-415e-8e4a-6bd165d701e9.gif)
+
 
 <br>
 <h1 align="center">Eight queens puzzle</h1>
