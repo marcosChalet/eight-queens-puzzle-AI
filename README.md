@@ -10,19 +10,20 @@
 
 ## Descrição
 
-<p>O problema das oito damas é o problema matemático de dispor oito damas em um tabuleiro de xadrez de dimensão 8x8, de forma que nenhuma delas seja atacada por outra. Para tanto, é necessário que duas damas quaisquer não estejam numa mesma linha, coluna, ou diagonal.</p>
+<p>O problema das oito damas é o problema matemático de dispor oito damas em um tabuleiro de xadrez de dimensão 8x8, de forma que nenhuma delas seja atacada por outra. Para tanto, é necessário que duas damas quaisquer não estejam numa mesma linha, coluna, ou diagonal.<br><br><em>Para a correção do problema considere a implementação em Python, porque, os testes foram feitos com esta implementação.<em></p>
 <br>
 
 ## Implementações :snake:
-* Evolutivo :heavy_check_mark:
-* Subida da encosta :heavy_check_mark:
+* Evolutivo Python :heavy_check_mark:
+* Subida da encosta Python :heavy_check_mark:
+* Evolutivo Java [**extra**] :heavy_check_mark:
 
 <br>
 
-## Dependências :stop_sign:
+## Dependências Python :stop_sign:
 ```sh
-sudo apt update
-sudo apt install python3
+$ sudo apt update
+$ sudo apt install python3
 ```
 
 <br>
@@ -31,6 +32,7 @@ sudo apt install python3
 :cop: _Instale as dependências._ :cop:
 ```sh
 # clonar e abrir o projeto
+$ cd python
 $ python3 evolve.py    # para o algoritmo evolutivo
 $ python3 subida.py    # para a subida da encosta
 ```
@@ -38,6 +40,8 @@ $ python3 subida.py    # para a subida da encosta
 <br>
 
 ## Resultados
+Os testes foram executados com a implementação em Python do problema **_Eight Queens Puzzle_**.
+
 ### Evolutivo
 | População  | Taxa de Mutação | Resultado |
 | :--------: | :-------------: | :-------: |
