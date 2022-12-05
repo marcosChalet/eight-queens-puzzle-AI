@@ -38,7 +38,28 @@ $ python3 subida.py    # para a subida da encosta
 
 <br>
 
+## Resultados
+### Evolutivo
+| População  | Taxa de Mutação | Resultado |
+| ---------- | --------------- | --------- |
+| 100        |       0.2       | 3 / 10    |
+| 150        |       0.2       | 4 / 10    |
+| 200        |       0.2       | 9 / 10    |
+
+<br>
+
+### Subida da encosta
+função que irá avaliar a qualidade dos sucessores é h(x) = quantidade de pares de rainhas que se atacam no tabuleiro
+
+| Resultado |
+| --------- |
+| 10%       |
+
+<br>
+
 <div align="center">
   <h2>Evolutivo   /   Subida da encosta</h1><img width="380px" height="180px" src="https://user-images.githubusercontent.com/72557256/205530426-f1a5dfea-8739-4e11-a33a-2ece32147b74.jpeg" />
   &nbsp;&nbsp;<img width="380px" height="180px" src="https://user-images.githubusercontent.com/72557256/205534110-cb595307-e8c7-4cbf-b1e5-af60022c2e20.jpeg" />
 </div>
+
+
